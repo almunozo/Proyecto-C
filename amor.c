@@ -6,4 +6,5 @@ int main(int argc, char const *argv[])
     gets(numeros);
     puts(numeros);
     return 0;
+    
 }

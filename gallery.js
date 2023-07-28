@@ -4,6 +4,7 @@ function upDate(element) {
     document.getElementById('image').innerHTML = element.alt;
     var x = document.getElementById('image');
     x.style.backgroundImage = "url('" + element.src + "')";
+    xccc
 }
 
 function unDo() {

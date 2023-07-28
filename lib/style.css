@@ -1,0 +1,52 @@
+body{
+    /* background-image: url('https://t3.ftcdn.net/jpg/06/00/87/46/240_F_600874681_O5txsPD6LAxc9IfA1Dlk4aRRUISfTMV9.jpg');*/
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header{
+    display:grid;
+    place-items:center;
+    color:#f5f6f7;
+  }/* Add your styles here */
+
+.menu {
+  width: 80%;
+  background-color:#09477B;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 700px;
+}
+#title{
+  font-family: Impact, serif;
+}
+
+#description{
+  Font-family: Arial;
+}
+
+.entradas {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  color: whitesmoke;
+
+}
+.entradas label{
+  width: 100%; /* Hace que el input ocupe todo el ancho disponible dentro del contenedor */
+  padding: 5px; /* Añade un poco de espacio interno al input para que no quede pegado al borde */
+  box-sizing: border-box;
+  margin-top:5px;
+  margin-bottom:5px;
+  display: block;
+  margin: 0.5rem 0;
+
+}
+
+.entradas input{
+  width: 100%; /* Hace que el input ocupe todo el ancho disponible dentro del contenedor */
+  padding: 5px; /* Añade un poco de espacio interno al input para que no quede pegado al borde */
+  box-sizing: border-box;
+}
